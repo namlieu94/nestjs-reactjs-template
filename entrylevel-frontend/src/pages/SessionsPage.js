@@ -69,14 +69,6 @@ export function SessionsPage() {
           }}
         >
           <Container maxWidth="md">
-            {/* <Box
-              component="form"
-              sx={{
-                "& > :not(style)": { m: 1, width: "25ch" },
-              }}
-              noValidate
-              autoComplete="off"
-            > */}
               <SelectValue key='status' data={statusValue} name="status" />
               <SelectValue key='short_title' data={titleValue} name="short_title" />
             {/* </Box> */}
